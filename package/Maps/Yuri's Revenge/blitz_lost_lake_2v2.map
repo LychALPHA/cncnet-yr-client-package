@@ -51,9 +51,6 @@ CrateGoodie=no
 CanC4=no
 Power=200
 Sight=10
-Immune=yes
-Warpable=no
-BaseNormal=no
 Capturable=yes
 Unsellable=yes
 CanBeOccupied=no
@@ -1309,7 +1306,6 @@ PlayerControl=no
 
 [Basic]
 Name=[4] Lost Lake - Blitz
-Author=Burg
 Theme=No theme
 Percent=0
 GameMode=standard
@@ -3551,22 +3547,22 @@ TiberiumExplosive=no
 DestroyableBridges=yes
 
 [Structures]
-0=Neutral,CAOILD,256,87,89,0,None,0,0,1,0,0,None,None,None,0,0
-1=Neutral,CAOILD,256,142,94,0,01000001,0,0,1,0,0,None,None,None,0,0
-2=Neutral,CAOILD,256,119,115,0,None,0,0,1,0,0,None,None,None,0,0
-3=Neutral,CAOILD,256,107,72,0,01000003,0,0,1,0,0,None,None,None,0,0
+0=Neutral,NAPSYB,256,87,89,0,None,0,0,1,0,0,None,None,None,0,0
+1=Neutral,CAOILD6,256,142,94,0,01000001,0,0,1,0,0,None,None,None,0,0
+2=Neutral,NAPSYB,256,119,115,0,None,0,0,1,0,0,None,None,None,0,0
+3=Neutral,CAOILD6,256,107,72,0,01000003,0,0,1,0,0,None,None,None,0,0
 4=Neutral,CAPOWR,256,126,88,64,01000001,1,0,1,0,0,None,None,None,0,0
 5=Neutral,CAPOWR,256,121,83,64,01000003,1,0,1,0,0,None,None,None,0,0
 6=Neutral,CAPOWR,256,91,120,64,01000007,1,0,1,0,0,None,None,None,0,0
 7=Neutral,CAPOWR,256,86,115,64,01000005,1,0,1,0,0,None,None,None,0,0
-8=Neutral,CAOILD,256,95,137,0,01000007,0,0,1,0,0,None,None,None,0,0
-9=Neutral,CAOILD,256,68,110,0,01000005,0,0,1,0,0,None,None,None,0,0
-1033732=Neutral,CAOILD,256,143,129,0,None,0,0,1,0,0,None,None,None,0,0
-1033737=Neutral,CAOILD,256,133,139,0,None,0,0,1,0,0,None,None,None,0,0
+8=Neutral,CAOILD6,256,95,137,0,01000007,0,0,1,0,0,None,None,None,0,0
+9=Neutral,CAOILD6,256,68,110,0,01000005,0,0,1,0,0,None,None,None,0,0
+1033732=Neutral,NAPSYB,256,143,129,0,None,0,0,1,0,0,None,None,None,0,0
+1033737=Neutral,NAPSYB,256,133,139,0,None,0,0,1,0,0,None,None,None,0,0
 1033742=Neutral,CAAIRP,256,137,133,0,None,0,0,1,0,0,None,None,None,0,0
 1033747=Neutral,CAAIRP,256,72,67,0,None,0,0,1,0,0,None,None,None,0,0
-1033752=Neutral,CAOILD,256,67,72,0,None,0,0,1,0,0,None,None,None,0,0
-1033757=Neutral,CAOILD,256,77,62,0,None,0,0,1,0,0,None,None,None,0,0
+1033752=Neutral,NAPSYB,256,67,72,0,None,0,0,1,0,0,None,None,None,0,0
+1033757=Neutral,NAPSYB,256,77,62,0,None,0,0,1,0,0,None,None,None,0,0
 
 [Tags]
 01000001=0,Precap_A 1,01000000

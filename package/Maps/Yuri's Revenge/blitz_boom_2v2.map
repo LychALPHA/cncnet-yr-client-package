@@ -220,13 +220,6 @@ Capturable=false
 Prerequisite=GAPILE,GACNST
 AIBasePlanningSide=-1
 
-[GAYARD]
-Name=Allied Shipyard
-TechLevel=6
-Prerequisite=PROC,POWER,GACNST
-ForbiddenHouses=Russians,Confederation,Africans,Arabs,YuriCountry
-AIBasePlanningSide=-1
-
 [GTGCAN]
 Name=Allied Grand Cannon
 TechLevel=11
@@ -362,11 +355,18 @@ Prerequisite=NAHAND,NACNST
 AIBasePlanningSide=-1
 
 [NAYARD]
-Name=Soviet Shipyard
-TechLevel=4
-Prerequisite=PROC,POWER
-ForbiddenHouses=British,French,Germans,Americans,Alliance
+Name=SNY Soviet Shipyard
+Prerequisite=PROC,POWER,NACNST
+Insignificant=yes
 AIBasePlanningSide=-1
+TechLevel=4
+
+[GAYARD]
+Name=Allied Shipyard
+Prerequisite=PROC,POWER,GACNST
+Insignificant=yes
+AIBasePlanningSide=-1
+TechLevel=4
 
 [ORCA]
 Name=Intruder

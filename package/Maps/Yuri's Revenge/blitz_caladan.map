@@ -256,12 +256,19 @@ Prerequisite=GAPILE,GACNST
 AIBasePlanningSide=-1
 BuildTimeMultiplier=1.15
 
+[NAYARD]
+Name=SNY Soviet Shipyard
+Prerequisite=PROC,POWER,NACNST
+Insignificant=yes
+AIBasePlanningSide=-1
+TechLevel=4
+
 [GAYARD]
 Name=Allied Shipyard
-TechLevel=6
 Prerequisite=PROC,POWER,GACNST
 Insignificant=yes
 AIBasePlanningSide=-1
+TechLevel=4
 
 [GHOST]
 Name=ANS NS Allied Navy SEAL
@@ -440,13 +447,6 @@ Capturable=false
 Prerequisite=NAHAND,NACNST
 AIBasePlanningSide=-1
 BuildTimeMultiplier=1.15
-
-[NAYARD]
-Name=SNY Soviet Shipyard
-TechLevel=6
-Prerequisite=PROC,POWER,NACNST
-Insignificant=yes
-AIBasePlanningSide=-1
 
 [NEGLAMP]
 LightRedTint=0.03
