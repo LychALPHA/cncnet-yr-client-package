@@ -730,12 +730,19 @@ Prerequisite=GAPILE,GACNST
 AIBasePlanningSide=-1
 BuildTimeMultiplier=1.15
 
+[NAYARD]
+Name=SNY Soviet Shipyard
+Prerequisite=PROC,POWER,NACNST
+Insignificant=yes
+AIBasePlanningSide=-1
+TechLevel=4
+
 [GAYARD]
-Name=ANY Allied Shipyard
-TechLevel=6
+Name=Allied Shipyard
 Prerequisite=PROC,POWER,GACNST
 Insignificant=yes
 AIBasePlanningSide=-1
+TechLevel=4
 
 [GDI]
 IQ=0
@@ -2068,13 +2075,6 @@ Capturable=false
 Prerequisite=NAHAND,NACNST
 AIBasePlanningSide=-1
 BuildTimeMultiplier=1.15
-
-[NAYARD]
-Name=SNY Soviet Shipyard
-TechLevel=4
-Prerequisite=PROC,POWER,NACNST
-Insignificant=yes
-AIBasePlanningSide=-1
 
 [Neutral]
 IQ=0

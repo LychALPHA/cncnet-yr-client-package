@@ -249,12 +249,19 @@ Capturable=false
 Prerequisite=GAPILE,GACNST
 AIBasePlanningSide=-1
 
-[GAYARD]
-Name=ANY Allied Shipyard
-Adjacent=12
-TechLevel=6
-Prerequisite=PROC,POWER,GACNST
+[NAYARD]
+Name=SNY Soviet Shipyard
+Prerequisite=PROC,POWER,NACNST
+Insignificant=yes
 AIBasePlanningSide=-1
+TechLevel=4
+
+[GAYARD]
+Name=Allied Shipyard
+Prerequisite=PROC,POWER,GACNST
+Insignificant=yes
+AIBasePlanningSide=-1
+TechLevel=4
 
 [GTGCAN]
 Name=Allied Grand Cannon
@@ -494,13 +501,6 @@ Name=Soviet War Factory
 TechLevel=5
 Capturable=false
 Prerequisite=NAHAND,NACNST
-AIBasePlanningSide=-1
-
-[NAYARD]
-Name=SNY Soviet Shipyard
-Adjacent=12
-TechLevel=4
-Prerequisite=PROC,POWER,NACNST
 AIBasePlanningSide=-1
 
 [ORCA]

@@ -870,7 +870,7 @@ BuildTimeMultiplier=1.15
 
 [GAYARD]
 Name=ANY Allied Shipyard
-TechLevel=6
+TechLevel=4
 Prerequisite=PROC,POWER,GACNST
 Insignificant=yes
 AIBasePlanningSide=-1
