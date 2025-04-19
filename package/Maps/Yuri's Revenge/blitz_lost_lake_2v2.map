@@ -18,7 +18,7 @@ Waypoint8=0,0
 NumberStartingPoints=4
 NumCoopHumanStartSpots=4
 
-[AMCV] ; add a comment
+[AMCV]
 Name=Allied Construction Vehicle
 CrateGoodie=no
 
@@ -1346,7 +1346,7 @@ PlayerControl=no
 Name=[4] Lost Lake - Blitz v5
 Theme=No theme
 Percent=0
-GameMode=standard
+GameMode=Blitz 2v2
 InitTime=10000
 Official=yes
 EndOfGame=no
